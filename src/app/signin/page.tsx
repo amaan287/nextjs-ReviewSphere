@@ -7,6 +7,12 @@ export default function Signin() {
           Create an account to post a review
         </p>
       </div>
+      <form action="submit">
+        <label htmlFor="">email</label>
+        <input type="email" />
+        <label htmlFor="">password</label>
+        <input type="password" />
+      </form>
     </div>
   );
 }
